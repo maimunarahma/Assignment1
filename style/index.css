@@ -29,7 +29,7 @@
     width: 230px;
     height: 60px;
     color: black;
-    background-color: hsl(0, 7%, 80%);
+    background-color: white
     border-radius: 5px;
   font-size: 20px;
   }
@@ -45,6 +45,11 @@
       background-repeat: no-repeat;
       background-size: cover;
     
+  }
+  .banner1 a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
   }
   .banner1 h1{
     margin-bottom: 15px;
@@ -194,7 +199,6 @@ height: 66px;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    
     background-image: url('../code/assets/handshake.jpg');
     background-color: rgba(0,0,0,0.6);
     background-blend-mode: overlay;
@@ -233,6 +237,9 @@ footer, .icons{
     justify-content: space-between;
     align-items: center;
 }
+ footer small{
+    font-weight: bold;
+ }
   .icons img{
   margin-right: 10px;
   }
