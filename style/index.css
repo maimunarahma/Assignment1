@@ -12,7 +12,7 @@
 }
 
    header{
-    width: 1440px;
+    width: 1500px;
     height: 652px;
     margin: 0 auto;
     margin-bottom: 50px;
@@ -25,10 +25,18 @@
    margin-right: 170px;
    padding: 50px 12px 50px 12px;
 }
+  .btn-primary1{
+    width: 230px;
+    height: 60px;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+  font-size: 20px;
+  }
   .banner1{
       display: flex;
       margin: 0 auto;
-      width: 1500px;
+      /* width: 1500px; */
       height: 652px;
       flex-direction: column;
       justify-content: center;
@@ -36,9 +44,14 @@
       background-image: url('../code/assets/Hero-bg.png');
       background-repeat: no-repeat;
       background-size: cover;
-      
+    
   }
-
+  .banner1 h1{
+    margin-bottom: 15px;
+  }
+  .banner1 p{
+  margin-bottom: 20px;
+  }
    .btn-primary{
     /* Desktop - 1 */
 position: relative;
@@ -46,24 +59,48 @@ position: relative;
  background: black;
 width: 208px;
 height: 66px;
+ border-radius: 5px;
+  font-size: 20px;
  
    }
    /* bannner 2 */
    .banner2{
+    margin: 0 auto;
+    width: 1140px;
+    height: 1400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    
     width: 1140px;
     height: 1400px;
-    margin-left: 150px;
-    margin-right: 150px;
+    /* margin-right: 40px; */
    }
 
    .card1, .card2 , .card3{
     display: flex; 
     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+   }
+  
+   .banner2 h1{
+    margin-bottom: 15px;
+   }
+  
+   .banner2 p{
+    margin-bottom: 70px;
+   }
+
+ /* banner3 */
+ .banner3{
+    margin: 0 auto;
+    width: 1140px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
    }
 
