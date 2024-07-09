@@ -103,4 +103,45 @@ height: 66px;
     justify-content: center;
     align-items: center;
    }
+    .banner3 h1{
+        margin-bottom: 30px;
+    }
+    .banner3 p{
+        margin-bottom: 60px;
+    }
+   /* banner4 */
+   .banner4{
+    width: 1140px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   .cards{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     gap: 30px;
+     
+   }
+   .banner4 p{
+    margin-bottom: 40px;
+   }
 
+   .crd1{
+    background-color: #FDEDEC;
+    padding: 30px 30px 20px 20px;
+    
+   }
+   .crd2{
+    background-color: #D6EAF8;
+    padding: 30px 30px 20px 20px;
+   }
+   .crd3{
+    background-color:#FDEBD0;
+    padding: 30px 30px 20px 20px;
+   }
+.crd1 a , .crd2 a , .crd3 a{
+    color: black;
+}
