@@ -1,0 +1,43 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+   header{
+    width: 1440px;
+    height: 652px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+   }
+  nav{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-left: 150px;
+   margin-right: 170px;
+   padding: 50px 12px 50px 12px;
+}
+  .banner1{
+      display: flex;
+      margin: 0 auto;
+      width: 1500px;
+      height: 652px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-image: url('../code/assets/Hero-bg.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+  }
+
+   .btn-primary{
+    /* Desktop - 1 */
+position: relative;
+ color: white;
+ background: black;
+width: 208px;
+height: 66px;
+ 
+   }
